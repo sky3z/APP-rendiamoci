@@ -1,0 +1,36 @@
+@charset "utf-8";
+/* CSS Document */
+
+body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif;}
+body, html {
+  	height: 100%;
+  	line-height: 1.8;
+}
+
+/* Creazione effetto parallasse */
+.bgimg-1{
+	  background-image: url("../Images/project3.jpg");
+  	background-attachment: fixed;
+  	background-position: center;
+  	background-repeat: no-repeat;
+  	background-size: cover;
+	  display: grid;
+	  height: 100%;
+}
+
+/* Prima immagine con parallasse */
+.bgimg-1 {
+  	min-height: 100%;
+	  margin-top: auto;
+}
+
+.w3-wide {letter-spacing: 10px;}
+.w3-hover-opacity {cursor: pointer;}
+
+/* Chiudere parallasse per tablet e cellulare */
+@media only screen and (max-device-width: 1600px) {
+  .bgimg-1{
+    	background-attachment: scroll;
+    	min-height: 400px;
+  }
+}

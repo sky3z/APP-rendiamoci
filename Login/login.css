@@ -1,0 +1,95 @@
+@charset "utf-8";
+/* CSS Document */
+
+body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif;}
+body, html {
+  	height: 100%;
+  	line-height: 1.8;
+}
+
+body{
+	background-image: url("../Images/project3.jpg");
+	background-attachment: fixed;
+  	background-position: center;
+  	background-repeat: no-repeat;
+  	background-size: cover;
+}
+
+.logHom{color: white;}
+
+#arrow-left{
+	margin-top: 50px;
+}
+
+#logText{
+	position: relative;
+	left: -15px;
+	z-index: 2;
+}
+
+.formLogin{
+	width: 310px;
+	margin: auto;
+	margin-top: 25px;
+}
+
+h1{
+	font-size: 64px;
+	font-weight: bolder;
+	text-align: center;
+	color: white;
+}
+
+.usL{position: relative;}
+
+.usLog{
+	width: 260px;
+	margin: auto;
+	text-indent: 30px;
+	display: inline-block;
+}
+
+.usL .fa-user-alt{
+	position: absolute;
+	top: 15px;
+	margin-left: 13px;
+}
+.usL .fa-lock{
+	position: absolute;
+	top: 15px;
+	margin-left: 13px;
+}
+
+.usL .fa-signature{
+	position: absolute;
+	top: 15px;
+	margin-left: 13px;
+}
+
+.usL .fa-id-card{
+	position: absolute;
+	top: 15px;
+	margin-left: 13px;
+}
+
+.checkbox{
+	margin-left: 25px;
+	color: white;
+}
+
+.butLog{width: 93%;}
+
+.w3-button{padding: 3px;}
+
+p{
+	font-size: 10px;
+	color: white;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+p1{
+	color: white;
+	margin: auto;
+	text-align: center;
+}
